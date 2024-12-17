@@ -9,11 +9,7 @@ import com.studentmgmt.model.Student;
 import com.studentmgmt.repository.Studentrepo;
 @Service
 public class Studentservice {
-	//listAllStudent->Read all students
-	//saveStudent->write student in db
-	//getStudentById(id)->Student
-	//updateStudent(Student student)->update
-	//deleteStudentById(id)->delete student of that id
+	
 	@Autowired
 	Studentrepo studentrepo;
  public List<Student> listAllStudent(){
